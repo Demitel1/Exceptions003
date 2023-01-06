@@ -13,7 +13,6 @@ import java.io.IOException;
 
 public class Program {
     public static void main(String[] args) throws IOException {
-        // Путь к папке с файлами
         String infoPathFolder = "src/Objective000/data/";
         Presenter presenter = new Presenter(new CGetData(),
                                             new CDataParseProcessor(),
